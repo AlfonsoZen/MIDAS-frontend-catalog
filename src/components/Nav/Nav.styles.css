@@ -1,0 +1,16 @@
+.nav-container {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23em;
+
+}
+
+.nav-section-container {
+    margin-bottom: 1em;
+}
+
+.nav-section-container:first-child {
+    border-bottom: 2px solid var(--tertiary-color);
+}
